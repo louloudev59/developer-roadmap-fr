@@ -1,128 +1,128 @@
 # Contribution
 
-First of all, thank you for considering to contribute. Please look at the details below:
+Tout d'abord, merci de vouloir contribuer. Veuillez consulter les détails ci-dessous :
 
-- [Hacktoberfest Contributions](#hacktoberfest-contributions)
-- [New Roadmaps](#new-roadmaps)
-- [Existing Roadmaps](#existing-roadmaps)
-- [Adding Projects](#adding-projects)
-- [Adding Content](#adding-content)
-- [Guidelines](#guidelines)
+- [Contributions Hacktoberfest](#hacktoberfest-contributions)
+- [Nouveaux Roadmaps](#new-roadmaps)
+- [Roadmaps Existants](#existing-roadmaps)
+- [Ajout de Projets](#adding-projects)
+- [Ajout de Contenu](#adding-content)
+- [Directives](#guidelines)
 
-## Hacktoberfest Contributions
+## Contributions Hacktoberfest
 
-We are taking part in [Hacktoberfest 11](https://hacktoberfest.com/)!
+Nous participons à [Hacktoberfest 11](https://hacktoberfest.com/) !
 
-Before you start to contribute to our project in order to satisfy [Hacktoberfest requirements](https://hacktoberfest.com/participation/#contributors), please bare in mind the following:
+Avant de commencer à contribuer à notre projet pour répondre aux [exigences de Hacktoberfest](https://hacktoberfest.com/participation/#contributors), veuillez garder à l'esprit les points suivants :
 
-* There is not a Hacktoberfest t-shirt this year [(see their FAQ)](https://hacktoberfest.com/participation/#faq).
-* There is not an infinite opportunity to contribute to the roadmap.sh project.
+* Il n'y a pas de t-shirt Hacktoberfest cette année [(voir leur FAQ)](https://hacktoberfest.com/participation/#faq).
+* Les opportunités de contribution au projet roadmap.sh ne sont pas infinies.
 
-### Hacktoberfest Specific Contribution rules
+### Règles spécifiques aux contributions Hacktoberfest
 
-As Hacktoberfest attracts a lot of contributors (which is awesome), it does require a more rigid and strictly enforced set of guidelines than the average contribution.
+Comme Hacktoberfest attire beaucoup de contributeurs (ce qui est génial), il est nécessaire d'appliquer un ensemble de directives plus strictes que pour une contribution classique.
 
-These are as follows:
+Voici ces règles :
 
-1. No single file contributions, please contribute to a minimum of two.
+1. Pas de contributions d'un seul fichier, veuillez en soumettre au minimum deux.
 
-Whilst single file contributions, such as adding one link to a single topic, is perfectly fine outside of hacktoberfest, this can (and probably will) result it an easy 4 pull requests for everyone and we will just become a Hacktoberfest farming project.
+Bien que les contributions d'un seul fichier, comme l'ajout d'un lien à un sujet, soient tout à fait acceptables en dehors de Hacktoberfest, cela peut (et probablement) entraîner la soumission facile de 4 pull requests par tout le monde, ce qui ferait de nous un projet « farming » pour Hacktoberfest.
 
-***Note: If you contribute the entire contents of a topic i.e. the topic has 0 copy and 0 links, this will count.***
+***Note : Si vous contribuez à l'intégralité d'un sujet, c'est-à-dire un sujet qui n'a ni texte ni liens, cela comptera.***
 
-2. Typo fixes will not count (by themselves).
+2. Les corrections de fautes d'orthographe ne compteront pas (seules).
 
-Whilst fixing typos is a great thing to do, lets bundle them in with actual contributions if we see them!
+Bien que corriger des fautes soit une bonne chose, regroupons-les avec des contributions substantielles lorsque nous les trouvons !
 
-3. The same basic rules apply.
+3. Les mêmes règles de base s'appliquent.
 
-- Content must be in English.
-- Maximum of 8 links per topic.
-- Follow the below style guide for content.
+- Le contenu doit être en anglais.
+- Maximum de 8 liens par sujet.
+- Suivez le guide de style ci-dessous pour le contenu.
 
-Here is an example of a **fully complete** topic:
+Voici un exemple de sujet **complètement rempli** :
 
 ```markdown
 # Redis
 
-Redis is an open-source, in-memory data structure store known for its speed and versatility. It supports various data types, including strings, lists, sets, hashes, and sorted sets, and provides functionalities such as caching, session management, real-time analytics, and message brokering. Redis operates as a key-value store, allowing for rapid read and write operations, and is often used to enhance performance and scalability in applications. It supports persistence options to save data to disk, replication for high availability, and clustering for horizontal scaling. Redis is widely used for scenarios requiring low-latency access to data and high-throughput performance.
+Redis est un magasin de données en mémoire open-source, connu pour sa rapidité et sa polyvalence. Il prend en charge divers types de données, notamment les chaînes, les listes, les ensembles, les hachages et les ensembles triés, et offre des fonctionnalités telles que la mise en cache, la gestion des sessions, l'analyse en temps réel et la gestion des messages. Redis fonctionne comme un magasin clé-valeur, permettant des opérations de lecture et d'écriture rapides, et est souvent utilisé pour améliorer les performances et l'évolutivité des applications. Il prend en charge des options de persistance pour enregistrer les données sur disque, la réplication pour une haute disponibilité, et le clustering pour une mise à l'échelle horizontale. Redis est largement utilisé pour les scénarios nécessitant un accès à faible latence aux données et une performance élevée.
 
-Learn more from the following resources:
+Apprenez-en plus à partir des ressources suivantes :
 
-[@official@Link 1](https:/google.com)
-[@article@Link 2](https:/google.com)
-[@article@Link 3](https:/google.com)
-[@course@Link 4](https:/google.com)
-[@course@Link 5](https:/google.com)
-[@video@Link 6](https:/google.com)
-[@video@Link 7](https:/google.com)
-[@video@Link 8](https:/google.com)
+[@official@Lien 1](https:/google.com)
+[@article@Lien 2](https:/google.com)
+[@article@Lien 3](https:/google.com)
+[@course@Lien 4](https:/google.com)
+[@course@Lien 5](https:/google.com)
+[@video@Lien 6](https:/google.com)
+[@video@Lien 7](https:/google.com)
+[@video@Lien 8](https:/google.com)
 ```
 
-Contributions to the project that meet these requirements will be given the label `hacktoberfest-accepted` and merged, contributions that do not meet the requirements will simply be closed.
+Les contributions au projet qui respectent ces exigences recevront l'étiquette `hacktoberfest-accepted` et seront fusionnées. Les contributions qui ne répondent pas aux exigences seront simplement fermées.
 
-Any attempts at spam PRs will be given the `spam` tag. If you recieve 2 `spam` tags against you, you will be [disqualified from Hacktoberfest](https://hacktoberfest.com/participation/#spam).
+Toute tentative de PR spam recevra l'étiquette `spam`. Si vous recevez 2 étiquettes `spam`, vous serez [disqualifié de Hacktoberfest](https://hacktoberfest.com/participation/#spam).
 
-## New Roadmaps
+## Nouveaux Roadmaps
 
-For new roadmaps, you can either:
-- Submit a roadmap by providing [a textual roadmap similar to this roadmap](https://gist.github.com/kamranahmedse/98758d2c73799b3a6ce17385e4c548a5) in an [issue](https://github.com/kamranahmedse/developer-roadmap/issues).
-- Create an interactive roadmap yourself using [our roadmap editor](https://draw.roadmap.sh/) & submit the link to that roadmap in an [issue](https://github.com/kamranahmedse/developer-roadmap/issues).
+Pour les nouveaux roadmaps, vous pouvez :
+- Soumettre un roadmap en fournissant [un roadmap textuel similaire à celui-ci](https://gist.github.com/kamranahmedse/98758d2c73799b3a6ce17385e4c548a5) dans une [issue](https://github.com/kamranahmedse/developer-roadmap/issues).
+- Créer un roadmap interactif en utilisant [notre éditeur de roadmap](https://draw.roadmap.sh/) et soumettre le lien de ce roadmap dans une [issue](https://github.com/kamranahmedse/developer-roadmap/issues).
 
-## Existing Roadmaps
+## Roadmaps Existants
 
-For the existing roadmaps, please follow the details listed for the nature of contribution:
+Pour les roadmaps existants, veuillez suivre les détails indiqués en fonction de la nature de la contribution :
 
-- **Fixing Typos** — Make your changes in the [roadmap JSON file](https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps) and submit a [PR](https://github.com/kamranahmedse/developer-roadmap/pulls).
-- **Adding or Removing Nodes** — Please open an [issue](https://github.com/kamranahmedse/developer-roadmap/issues) with your suggestion.
+- **Correction de fautes** — Faites vos modifications dans le [fichier JSON du roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps) et soumettez une [PR](https://github.com/kamranahmedse/developer-roadmap/pulls).
+- **Ajout ou suppression de nœuds** — Veuillez ouvrir une [issue](https://github.com/kamranahmedse/developer-roadmap/issues) avec votre suggestion.
 
-**Note:** Please note that our goal is <strong>not to have the biggest list of items</strong>. Our goal is to list items or skills most relevant today.
+**Note :** Veuillez noter que notre objectif n'est **pas d'avoir la plus grande liste d'éléments**, mais de lister les éléments ou compétences les plus pertinents aujourd'hui.
 
-## Adding Projects
+## Ajout de Projets
 
-If you have a project idea that you think we should add to the roadmap, feel free to open an issue with as many details about the project as possible and the roadmap you think it should be added to.
+Si vous avez une idée de projet que vous pensez que nous devrions ajouter au roadmap, n'hésitez pas à ouvrir une issue avec autant de détails que possible sur le projet et le roadmap auquel vous pensez qu'il devrait être ajouté.
 
-The detailed format for the issue should be as follows:
-
-```
-## What is this project about?
-
-(Add an introduction to the project.)
-
-## Skills this Project Covers
-
-(Comma separated list of skills, e.g. Programming Knowledge, Database, etc.)
-
-## Requirements
-
-( Detailed list of requirements, i.e. input, output, hints to help build this, etc.)
-```
-
-Have a look at this project to get an idea of [what we are looking for](https://roadmap.sh/projects/github-user-activity).
-
-## Adding Content
-
-Find [the content directory inside the relevant roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps). Please keep the following guidelines in mind when submitting content:
-
-- Content must be in English.
-- Maximum of 8 links per topic.
-- Follow the below style guide for content.
-
-### How To Structure Content
-
-Please adhere to the following style when adding content to a topic:
+Le format détaillé de l'issue devrait être comme suit :
 
 ```
-# Topic Title
+## De quoi parle ce projet ?
 
-(Content)
+(Ajoutez une introduction au projet.)
 
-Visit the following resources to learn more:
+## Compétences couvertes par ce projet
 
-- [@type@Description of link](Link)
+(Liste des compétences séparées par des virgules, par exemple, Connaissance en programmation, Base de données, etc.)
+
+## Exigences
+
+(Liste détaillée des exigences, c'est-à-dire entrée, sortie, indices pour aider à construire cela, etc.)
 ```
 
-`@type@` must be one of the following and describe the type of content you are adding:
+Jetez un coup d'œil à ce projet pour vous faire une idée de [ce que nous recherchons](https://roadmap.sh/projects/github-user-activity).
+
+## Ajout de Contenu
+
+Trouvez [le répertoire de contenu à l'intérieur du roadmap concerné](https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps). Veuillez respecter les directives suivantes lors de la soumission de contenu :
+
+- Le contenu doit être en anglais.
+- Maximum de 8 liens par sujet.
+- Suivez le guide de style ci-dessous pour le contenu.
+
+### Comment structurer le contenu
+
+Veuillez respecter le style suivant lorsque vous ajoutez du contenu à un sujet :
+
+```
+# Titre du Sujet
+
+(Contenu)
+
+Consultez les ressources suivantes pour en savoir plus :
+
+- [@type@Description du lien](Lien)
+```
+
+`@type@` doit être l'un des suivants et décrire le type de contenu que vous ajoutez :
 
 - `@official@`
 - `@opensource@`
@@ -131,46 +131,50 @@ Visit the following resources to learn more:
 - `@podcast@`
 - `@video@`
 
-It's important to add a valid type, this will help us categorize the content and display it properly on the roadmap.
+Il est important d'ajouter un type valide, cela nous aidera à catégoriser le contenu et à l'afficher correctement sur le roadmap.
 
-## Guidelines
+## Directives
 
-- <p><strong>Please don't use the project for self-promotion!</strong><br />
+- <p><strong>Veuillez ne pas utiliser le projet pour vous auto-promouvoir !</strong><br />
 
-  We believe this project is a valuable asset to the developer community, and it includes numerous helpful resources. We kindly ask you to avoid submitting pull requests for the sole purpose of self-promotion. We appreciate contributions that genuinely add value, such as guides from maintainers of well-known frameworks, and will consider accepting these even if they're self authored. Thank you for your understanding and cooperation!
+## Lignes directrices
 
-- <p><strong>Adding everything available out there is not the goal!</strong><br />
+- <p><strong>Merci de ne pas utiliser le projet pour l'auto-promotion !</strong><br />
 
-  The roadmaps represent the skillset most valuable today, i.e., if you were to enter any of the listed fields today, what would you learn? There might be things that are of-course being used today, but prioritize the things that are most in demand today, e.g., agree that lots of people are using angular.js today, but you wouldn't want to learn that instead of React, Angular, or Vue. Use your critical thinking to filter out non-essential stuff. Give honest arguments for why the resource should be included.</p>
+  Nous considérons que ce projet est un atout précieux pour la communauté des développeurs, car il contient de nombreuses ressources utiles. Nous vous demandons de ne pas soumettre de pull requests dans le but unique de vous auto-promouvoir. Nous apprécions les contributions qui apportent une véritable valeur ajoutée, comme des guides provenant des mainteneurs de frameworks bien connus, et nous pourrions accepter ces contributions même si elles sont rédigées par vous-même. Merci pour votre compréhension et votre coopération !
 
-- <p><strong>Do not add things you have not evaluated personally!</strong><br />
+- <p><strong>Ajouter tout ce qui existe n'est pas l'objectif !</strong><br />
 
-  Use your critical thinking to filter out non-essential stuff. Give honest arguments for why the resource should be included. Have you read this book? Can you give a short article?</p>
+  Les roadmaps représentent l'ensemble des compétences les plus précieuses aujourd'hui, c'est-à-dire que si vous deviez entrer dans l'un des domaines listés aujourd'hui, que devriez-vous apprendre ? Il est possible que certaines choses soient encore utilisées aujourd'hui, mais il faut prioriser ce qui est le plus demandé aujourd'hui, par exemple, beaucoup de gens utilisent encore Angular.js, mais vous ne voudriez pas apprendre cela à la place de React, Angular ou Vue. Utilisez votre esprit critique pour filtrer les éléments non essentiels et apportez des arguments honnêtes pour justifier l'inclusion de la ressource.</p>
 
-- <p><strong>Create a Single PR for Content Additions</strong></p>
+- <p><strong>Ne proposez pas des ressources que vous n'avez pas personnellement évaluées !</strong><br />
 
-  If you are planning to contribute by adding content to the roadmaps, I recommend you to clone the repository, add content to the [content directory of the roadmap](./src/data/roadmaps/) and create a single PR to make it easier for me to review and merge the PR.
+  Utilisez votre esprit critique pour filtrer les éléments non essentiels. Donnez des arguments honnêtes pour justifier l'inclusion de la ressource. Avez-vous lu ce livre ? Pouvez-vous donner un bref résumé de l'article ?</p>
 
-- <p><strong>Write meaningful commit messages</strong><br >
+- <p><strong>Créez une seule PR pour les ajouts de contenu</strong></p>
 
-  Meaningful commit messages help speed up the review process as well as help other contributors gain a good overview of the repositories commit history without having to dive into every commit.
+  Si vous prévoyez de contribuer en ajoutant du contenu aux roadmaps, nous vous recommandons de cloner le dépôt, d'ajouter du contenu dans le [répertoire de contenu de la roadmap](./src/data/roadmaps/) et de créer une seule PR pour faciliter la révision et la fusion de la PR.
+
+- <p><strong>Rédigez des messages de commit significatifs</strong><br >
+
+  Des messages de commit significatifs aident à accélérer le processus de révision et permettent aux autres contributeurs d'avoir une bonne vue d'ensemble de l'historique des commits du dépôt sans avoir à examiner chaque commit.
 
   </p>
-- <p><strong>Look at the existing issues/pull requests before opening new ones</strong></p>
+- <p><strong>Consultez les problèmes/pull requests existants avant d'en ouvrir de nouveaux</strong></p>
 
-### Good vs. Not So Good Contributions
+### Bonnes vs. Moins Bonnes Contributions
 
-<strong>Good</strong>
+<strong>Bonnes Contributions</strong>
 
-  - New Roadmaps.
-  - Engaging, fresh content links.
-  - Typos and grammatical fixes.
-  - Content copy in topics that do not have any (or minimal copy exists).
+  - Nouvelles roadmaps.
+  - Liens vers du contenu engageant et nouveau.
+  - Corrections de fautes de frappe et de grammaire.
+  - Contenu de sujets qui n'ont pas encore de contenu (ou très peu).
 
-<strong>Not So Good</strong>
+<strong>Moins Bonnes Contributions</strong>
 
-  - Adding whitespace that doesn't add to the readability of the content.
-  - Rewriting content in a way that doesn't add any value.
-  - Non-English content.
-  - PR's that don't follow our style guide, have no description, and a default title.
-  - Links to your own blog articles.
+  - Ajouter des espaces blancs qui n'améliorent pas la lisibilité du contenu.
+  - Réécrire le contenu d'une manière qui n'apporte aucune valeur ajoutée.
+  - Contenu non traduit en anglais.
+  - PR qui ne suivent pas notre guide de style, sans description, et avec un titre par défaut.
+  - Liens vers vos propres articles de blog.
