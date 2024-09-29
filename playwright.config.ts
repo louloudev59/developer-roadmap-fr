@@ -1,48 +1,45 @@
-import type { PlaywrightTestConfig } from '@playwright/test';
-import { devices } from '@playwright/test';
-
 /**
- * Read environment variables from file.
+ * Lire les variables d'environnement à partir d'un fichier.
  * https://github.com/motdotla/dotenv
  */
 // require('dotenv').config();
 
 /**
- * See https://playwright.dev/docs/test-configuration.
+ * Voir https://playwright.dev/docs/test-configuration.
  */
 const config: PlaywrightTestConfig = {
   testDir: './tests',
-  /* Maximum time one test can run for. */
+  /* Temps maximum d'exécution pour un test. */
   timeout: 30 * 1000,
   expect: {
     /**
-     * Maximum time expect() should wait for the condition to be met.
-     * For example in `await expect(locator).toHaveText();`
+     * Temps maximum que expect() doit attendre pour que la condition soit remplie.
+     * Par exemple dans `await expect(locator).toHaveText();`
      */
     timeout: 5000,
   },
-  /* Run tests in files in parallel */
+  /* Exécuter les tests dans les fichiers en parallèle */
   fullyParallel: true,
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
+  /* Échouer la build sur CI si test.only est accidentellement laissé dans le code source. */
   forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
+  /* Réessayer uniquement sur CI */
   retries: process.env.CI ? 2 : 0,
-  /* Opt out of parallel tests on CI. */
+  /* Désactiver les tests parallèles sur CI. */
   workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  /* Reporter à utiliser. Voir https://playwright.dev/docs/test-reporters */
   reporter: 'html',
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  /* Paramètres partagés pour tous les projets ci-dessous. Voir https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
+    /* Temps maximum pour chaque action comme `click()`. Par défaut 0 (pas de limite). */
     actionTimeout: 0,
-    /* Base URL to use in actions like `await page.goto('/')`. */
+    /* URL de base à utiliser dans des actions comme `await page.goto('/')`. */
     baseURL: 'http://localhost:3000',
 
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    /* Collecter les traces lors de la réessaye d'un test échoué. Voir https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
 
-  /* Configure projects for major browsers */
+  /* Configurer des projets pour les principaux navigateurs */
   projects: [
     {
       name: 'chromium',
@@ -65,7 +62,7 @@ const config: PlaywrightTestConfig = {
     //   },
     // },
 
-    /* Test against mobile viewports. */
+    /* Tester avec des viewports mobiles. */
     // {
     //   name: 'Mobile Chrome',
     //   use: {
@@ -79,7 +76,7 @@ const config: PlaywrightTestConfig = {
     //   },
     // },
 
-    /* Test against branded browsers. */
+    /* Tester avec des navigateurs spécifiques de marque. */
     // {
     //   name: 'Microsoft Edge',
     //   use: {
@@ -94,10 +91,10 @@ const config: PlaywrightTestConfig = {
     // },
   ],
 
-  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
+  /* Dossier pour les artefacts de test tels que les captures d'écran, vidéos, traces, etc. */
   // outputDir: 'test-results/',
 
-  /* Run your local dev server before starting the tests */
+  /* Lancer votre serveur de développement local avant de démarrer les tests */
   webServer: {
     command: 'npm run dev',
     url: 'http://localhost:3000',
