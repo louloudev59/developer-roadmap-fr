@@ -36,7 +36,7 @@ export async function serializeSitemap(item) {
     ),
   ];
 
-  // Roadmaps and other high priority pages
+  // Roadmaps et les autres pages importantes
   for (let pageUrl of highPriorityPages) {
     if (item.url === pageUrl) {
       return {
@@ -48,7 +48,7 @@ export async function serializeSitemap(item) {
     }
   }
 
-  // Guide and video pages
+  // Les Guides et la page Vidéos
   if (
     item.url.startsWith('https://roadmap.sh/guides') ||
     item.url.startsWith('https://roadmap.sh/videos')
